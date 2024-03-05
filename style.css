@@ -1,0 +1,23 @@
+body{
+    background: rgb(83,121,9);
+    background: linear-gradient(90deg, rgba(83,121,9,1) 6%, rgba(9,121,44,1) 57%, rgba(11,187,183,1) 90%);
+    text-align: center;
+}
+
+    
+    
+
+div{
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+ input{
+    box-sizing: content-box;
+    padding-left: 10%;
+    padding-top: 0.5%;
+
+ }

@@ -1,23 +1,21 @@
-body{
-    background: rgb(83,121,9);
-    background: linear-gradient(90deg, rgba(83,121,9,1) 6%, rgba(9,121,44,1) 57%, rgba(11,187,183,1) 90%);
-    text-align: center;
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,67,1) 25%, rgba(0,212,255,1) 100%);
+    
 }
 
-    
-    
-
-div{
-    background-color: red;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-
+div {
+    width:20%;
+    padding: 15px 0;
+    background: #c7efd0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 0  auto;
+    position: absolute;
+    top: 30%;
+    left: 40%;
 }
 
- input{
-    box-sizing: content-box;
-    padding-left: 10%;
-    padding-top: 0.5%;
-
- }

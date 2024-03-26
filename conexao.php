@@ -2,7 +2,7 @@
 $host="localhost";
 $user="root";
 $senha="";
-$bd="trabalho";
+$bd="trabalho2";
 
 $conexao=  new mysqli($host,$user,$senha,$bd);
 if($conexao){

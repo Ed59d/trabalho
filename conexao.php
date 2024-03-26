@@ -4,12 +4,12 @@ $user="root";
 $senha="";
 $bd="trabalho2";
 
-$conexao=  new mysqli($host,$user,$senha,$bd);
-if($conexao){
-    echo"deu certo";
+
+if($conexao = mysqli_connect($host,$user,$senha,$bd)){
+    //echo"deu certo";
 }
 else{
-    echo"deu erro".mysqli_connect_error();
+    //echo"deu erro".mysqli_connect_error();
 }
 
 

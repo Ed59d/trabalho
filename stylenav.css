@@ -10,7 +10,7 @@ header{
 .nav-bar{
     justify-content: space-between;
     display: flex;
-    padding: 1.5rem 6rem;
+    padding: 3rem 6rem;
 }
 .menu{
     display: flex;
@@ -28,4 +28,10 @@ header{
 
 .nav-item{
     margin: 0 15px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: aliceblue;
 }

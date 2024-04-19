@@ -1,0 +1,20 @@
+*{
+    background-color: rgb(123, 206, 112);
+}
+.jumbotron{
+
+    text-align: center;
+    margin-top: 17%;
+
+}
+.mb-3{
+    text-align: center;
+    margin-top: 17%;
+    width: 30%;
+    margin-left: 34%;
+}
+.col{
+    text-align: center;
+    margin-top: -5%;
+    width: 30%;
+}

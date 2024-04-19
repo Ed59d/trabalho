@@ -9,7 +9,7 @@ if($conexao = mysqli_connect($host,$user,$senha,$bd)){
     //echo"deu certo";
 }
 else{
-    //echo"deu erro".mysqli_connect_error();
+    echo"deu erro".mysqli_connect_error();
 }
 
 

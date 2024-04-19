@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stilocad.css">
   <body>
   <div class="conteiner">
     <div class="row">
@@ -12,10 +13,10 @@
       <div class="jumbotron">
             <h1 class="display-4">Sistema de Cadastro</h1>
             <hr class="my-4">
-            <p> Sistema desenvolvido pelos alunos de EEP praa ocorrências dos alunos.</p>
+            <p> Sistema desenvolvido pelos alunos de EEEP praa ocorrências dos alunos</p>
             <p class="lead">
-            <a class="btn btn-primary btn-lg" href="cadastroboo.php" role="button">CADASTRE-SE</a>
-            <a class="btn btn-primary btn-lg" href="pesquisa.php" role="button">Pesquisar</a>   
+            <a class="btn btn-primary btn-lg" href="cadastroboo.php" role="button">CADASTRE-SE</a> 
+            <a class="btn btn-primary btn-lg" href="login.php" role="button">LOGIN</a> 
 
             </p>
             </div>

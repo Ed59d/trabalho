@@ -10,7 +10,8 @@ $sql = mysqli_query($conexao, " INSERT INTO cadastro(nome,data,email,senha)
 VALUES ('$nome','$data','$email','$senha')");
 
 if($sql = mysqli_query($conexao,$sql)){
-    echo "$nome cadastrado com sucesso";
+    
+    header('Location:login.php');
 }
 else{
     echo"Não foi encontrado";

@@ -26,13 +26,35 @@
     <tr>
       <th scope="row">1</th>
       <td>Markk</td>
-      <td>ocorrncia</td>
+      <td><button id="openModalBtn">ocorrência</button>
+
+        <div id="commentModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Deixe sua ocorrência</h2>
+            <textarea id="commentInput" placeholder="Digite seu comentário aqui"></textarea>
+            <button id="submitCommentBtn">Enviar</button>
+          </div>
+        </div>
+      </td>
     </tr>
+
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
-      <td>ocorrencia</td>
+      <td><button id="openModalBtn">ocorrência</button>
+
+        <div id="commentModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Deixe sua ocorrência</h2>
+            <textarea id="commentInput" placeholder="Digite seu comentário aqui"></textarea>
+            <button id="submitCommentBtn">Enviar</button>
+          </div>
+        </div>
+      </td>
     </tr>
+
     <tr>
       <th scope="row">3</th>
       <td >Larry the Bird</td>
@@ -238,7 +260,22 @@
       <td>@twitter</td>
     </tr>
   
-
+<script type="text/javascript" charset="UTF-8">
+    document.getElementById('openModalBtn').addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'block';
+    });
+    
+    document.getElementsByClassName('close')[0].addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'none';
+    });
+    
+    document.getElementById('submitCommentBtn').addEventListener('click', function() {
+      var comment = document.getElementById('commentInput').value;
+      // Aqui você pode adicionar lógica para enviar o comentário para o servidor
+      console.log('Comentário enviado: ' + comment);
+      document.getElementById('commentModal').style.display = 'none';
+    });
+</script>
   </tbody>
 </table>
 

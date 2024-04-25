@@ -22,7 +22,7 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   <br>
-    <button type="submit" class="btn btn-primary" <a href="abas.html"></a>entrar</button>
+    <button type="submit" class="btn btn-primary">entrar</button>
   </div>
 </form>
 

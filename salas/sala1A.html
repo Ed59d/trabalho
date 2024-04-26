@@ -40,7 +40,7 @@
     </tr>
 
     <tr>
-      <th scope="row">1</th>
+      <th scope="row">2</th>
       <td>Markk</td>
       <td><button id="openModal1">ocorrência</button>
 
@@ -56,9 +56,9 @@
     </tr>
 
     <tr>
-      <th scope="row">1</th>
+      <th scope="row">3</th>
       <td>Markk</td>
-      <td><button id="openModalBtn">ocorrência</button>
+      <td><button id="openModal2">ocorrência</button>
 
         <div id="commentModal" class="modal">
           <div class="modal-content">
@@ -110,6 +110,39 @@
 
 
     document.getElementById('openModal1').addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'block';
+    });
+    
+    document.getElementsByClassName('close')[0].addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'none';
+    });
+    
+    document.getElementById('submitCommentBtn').addEventListener('click', function() {
+      var comment = document.getElementById('commentInput').value;
+      // Aqui você pode adicionar lógica para enviar o comentário para o servidor
+      console.log('Comentário enviado: ' + comment);
+      document.getElementById('commentModal').style.display = 'none';
+    });
+
+
+    document.getElementById('openModal2').addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'block';
+    });
+    
+    document.getElementsByClassName('close')[0].addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'none';
+    });
+    
+    document.getElementById('submitCommentBtn').addEventListener('click', function() {
+      var comment = document.getElementById('commentInput').value;
+      // Aqui você pode adicionar lógica para enviar o comentário para o servidor
+      console.log('Comentário enviado: ' + comment);
+      document.getElementById('commentModal').style.display = 'none';
+    });
+
+
+    
+    document.getElementById('openModal3').addEventListener('click', function() {
       document.getElementById('commentModal').style.display = 'block';
     });
     

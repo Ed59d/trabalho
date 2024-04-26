@@ -90,7 +90,7 @@
 
 
     <tr>
-      <th scope="row">4</th>
+      <th scope="row">5</th>
       <td >Larry the Bird</td>
       <td><button id="openModal4">ocorrência</button>
 
@@ -107,9 +107,77 @@
 
 
     <tr>
-      <th scope="row">4</th>
+      <th scope="row">6</th>
       <td >Larry the Bird</td>
       <td><button id="openModal5">ocorrência</button>
+
+        <div id="commentModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Deixe sua ocorrência</h2>
+            <textarea id="commentInput" placeholder="Digite seu nome e sua ocorrência aqui"></textarea>
+            <button id="submitCommentBtn">Enviar</button>
+          </div>
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <th scope="row">7</th>
+      <td >Larry the Bird</td>
+      <td><button id="openModal6">ocorrência</button>
+
+        <div id="commentModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Deixe sua ocorrência</h2>
+            <textarea id="commentInput" placeholder="Digite seu nome e sua ocorrência aqui"></textarea>
+            <button id="submitCommentBtn">Enviar</button>
+          </div>
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <th scope="row">8</th>
+      <td >Larry the Bird</td>
+      <td><button id="openModal7">ocorrência</button>
+
+        <div id="commentModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Deixe sua ocorrência</h2>
+            <textarea id="commentInput" placeholder="Digite seu nome e sua ocorrência aqui"></textarea>
+            <button id="submitCommentBtn">Enviar</button>
+          </div>
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <th scope="row">9</th>
+      <td >Larry the Bird</td>
+      <td><button id="openModal8">ocorrência</button>
+
+        <div id="commentModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Deixe sua ocorrência</h2>
+            <textarea id="commentInput" placeholder="Digite seu nome e sua ocorrência aqui"></textarea>
+            <button id="submitCommentBtn">Enviar</button>
+          </div>
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <th scope="row">10</th>
+      <td >Larry the Bird</td>
+      <td><button id="openModal9">ocorrência</button>
 
         <div id="commentModal" class="modal">
           <div class="modal-content">
@@ -210,7 +278,71 @@
 
 
     
-    document.getElementById('openModal5').addEventListener('click', function() {
+     document.getElementById('openModal5').addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'block';
+    });
+    
+    document.getElementsByClassName('close')[0].addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'none';
+    });
+    
+    document.getElementById('submitCommentBtn').addEventListener('click', function() {
+      var comment = document.getElementById('commentInput').value;
+      // Aqui você pode adicionar lógica para enviar o comentário para o servidor
+      console.log('Comentário enviado: ' + comment);
+      document.getElementById('commentModal').style.display = 'none';
+    });
+
+
+    document.getElementById('openModal6').addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'block';
+    });
+    
+    document.getElementsByClassName('close')[0].addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'none';
+    });
+    
+    document.getElementById('submitCommentBtn').addEventListener('click', function() {
+      var comment = document.getElementById('commentInput').value;
+      // Aqui você pode adicionar lógica para enviar o comentário para o servidor
+      console.log('Comentário enviado: ' + comment);
+      document.getElementById('commentModal').style.display = 'none';
+    });
+
+
+    document.getElementById('openModal7').addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'block';
+    });
+    
+    document.getElementsByClassName('close')[0].addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'none';
+    });
+    
+    document.getElementById('submitCommentBtn').addEventListener('click', function() {
+      var comment = document.getElementById('commentInput').value;
+      // Aqui você pode adicionar lógica para enviar o comentário para o servidor
+      console.log('Comentário enviado: ' + comment);
+      document.getElementById('commentModal').style.display = 'none';
+    });
+
+
+    document.getElementById('openModal8').addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'block';
+    });
+    
+    document.getElementsByClassName('close')[0].addEventListener('click', function() {
+      document.getElementById('commentModal').style.display = 'none';
+    });
+    
+    document.getElementById('submitCommentBtn').addEventListener('click', function() {
+      var comment = document.getElementById('commentInput').value;
+      // Aqui você pode adicionar lógica para enviar o comentário para o servidor
+      console.log('Comentário enviado: ' + comment);
+      document.getElementById('commentModal').style.display = 'none';
+    });
+
+
+    document.getElementById('openModal9').addEventListener('click', function() {
       document.getElementById('commentModal').style.display = 'block';
     });
     

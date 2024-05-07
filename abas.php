@@ -11,7 +11,7 @@
 <header>
     <nav class="nav-bar">
         <div class="menu">
-            <h1>turmas</h1>
+            <h1>Turmas</h1>
         </div>
             <div class="nav-list">
                 <ul>

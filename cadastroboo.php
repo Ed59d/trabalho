@@ -30,7 +30,7 @@
             <input type="password" class="form-control" name="senha">
 
             <input type="submit" class="btn btn-success" >
-            <a href="indexboo.php" class="btn btn-success">voltar</a>
+            <a href="index.html" class="btn btn-success">voltar</a>
             </div>
         </form>
 

@@ -1,12 +1,11 @@
-*{
-    background: linear-gradient(90deg, rgba(87,240,72,1) 0%, rgba(57,242,41,1) 30%, rgba(14,156,57,1) 75%);
-}
+
 .jumbotron{
 
     text-align: center;
     margin-top: 17%;
     background: rgb(87,240,72);
-    background: linear-gradient(90deg, rgba(87,240,72,1) 0%, rgba(57,242,41,1) 30%, rgba(14,156,57,1) 75%);
+    color: aliceblue;
+
 
 }
 .mb-3{

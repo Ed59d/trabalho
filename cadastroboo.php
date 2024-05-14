@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="stilocad.css">
   <body>
     <include src="cad.php"></include>
+    <include src="conexao.php"></include>
+    <include src="hash.php"></include>
   <div class="conteiner">
     <div class="row">
       <div class="col">

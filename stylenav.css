@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: rgb(57, 122, 67);
+    background-color: rgb(250, 194, 110);
     box-shadow: 0px 3px 10px ;
 }
 .nav-bar{
@@ -34,4 +34,8 @@ header{
     text-decoration: none;
     font-size: 1.15rem;
     color: aliceblue;
+}
+
+body{
+    background-color: rgb(69, 252, 115);
 }

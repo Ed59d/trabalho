@@ -14,7 +14,8 @@
     margin-top: 17%;
     width: 30%;
     margin-left: 34%;
-    background-color: aliceblue;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(87,240,72,1) 0%, rgba(57,242,41,1) 30%, rgba(14,156,57,1) 75%);
 }
 .col{
     text-align: center;

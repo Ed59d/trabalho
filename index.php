@@ -10,7 +10,7 @@
   <div class="conteiner">
     <div class="row">
       <div class="col">
-      <div class="jumbotron">
+        <div class="jumbotron">
             <h1 class="display-4">Sistema de Cadastro</h1>
             <hr class="my-4">
             <p> Sistema desenvolvido pelos alunos de EEEP praa ocorrências dos alunos</p>
@@ -19,9 +19,8 @@
             <a class="btn btn-primary btn-lg" href="login.php" role="button">LOGIN</a> 
 
             </p>
-            </div>
       
-            </div>
+        </div>
        
       </div>
     </div>

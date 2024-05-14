@@ -23,7 +23,7 @@
     width: 30%;
 }
 body{
-    background: linear-gradient(90deg, rgba(87,240,72,1) 0%, rgba(57,242,41,1) 30%, rgba(14,156,57,1) 75%);
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(57,242,41,1) 30%, rgba(14,156,57,1) 75%);
 }
 
 button a{

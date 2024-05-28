@@ -11,10 +11,10 @@ VALUES ('$nome','$data','$email','$senha')");
 
 if($sql = mysqli_query($conexao,$sql)){
     
-    echo "nao encontrado";
+     header('Location:login.html');
 }
 else{
-    header('Location:login.html');
+    echo "nao encontrado";
 }
 
 ?>

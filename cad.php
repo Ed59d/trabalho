@@ -1,5 +1,6 @@
 <?php
 include("conexao.php");
+include("login.html");
 $nome = $_POST['nome'];
 $data =$_POST['data'];
 $email = $_POST['email'];

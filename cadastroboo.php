@@ -1,5 +1,6 @@
 <?php
-include ("login.html");
+include("conexao.php");
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -10,9 +11,6 @@ include ("login.html");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stilocad.css">
   <body>
-    <include src="cad.php"></include>
-    <include src="conexao.php"></include>
-    <include src="hash.php"></include>
   <div class="conteiner">
     <div class="row">
       <div class="col">
@@ -36,7 +34,7 @@ include ("login.html");
             <input type="password" class="form-control" name="senha">
 
             <input type="submit" class="btn btn-success" >
-            <a href="index.html" class="btn btn-success">voltar</a>
+            <a href="index.php" class="btn btn-success">voltar</a>
             </div>
         </form>
 

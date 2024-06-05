@@ -28,11 +28,11 @@
             <label for="nome" class="form-label">Nome Completo</label>
             <input type="text" class="form-control" name="nome"required value="<?php echo $linha['nome'] ;?>">
 
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" name="email" value="<?php echo $linha['email'] ;?>">
+            <label for="motivo" class="form-label">motivo</label>
+            <input type="text" class="form-control" name="motivo" value="<?php echo $linha['motivo'] ;?>">
 
-            <label for="senha" class="form-label">Senha</label>
-            <input type="password" class="form-control" name="senha"value="<?php echo $linha['senha'] ;?>">
+            <label for="data" class="form-label">data</label>
+            <input type="date" class="form-control" name="data"value="<?php echo $linha['data'] ;?>">
 
             <input type="submit" class="btn btn-success" value="salvar alterações">
             <input type="hidden" name="id" value="<?php echo $linha['id'] ;?>">

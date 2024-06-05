@@ -2,7 +2,7 @@
 $host = "localhost";
 $user ="root";
 $senha ="";
-$banco = "provainfor";
+$banco = "trabalho2";
 
 $conexao = new mysqli($host,$user,$senha,$banco);
     if (!$conexao){

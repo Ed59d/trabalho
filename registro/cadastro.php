@@ -12,17 +12,17 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1>Cadastre-se</h1>
-        <form action="cad.php" method="POST">
+        <h1>faça a ocorrencia</h1>
+        <form action="cah.php" method="POST">
           <div class="mb-3">
             <label for="nome" class="form-label">Nome Completo</label>
             <input type="text" class="form-control" name="nome">
 
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" name="email">
+            <label for="motivo" class="form-label">motivo</label>
+            <input type="text" class="form-control" name="email">
 
-            <label for="senha" class="form-label">Senha</label>
-            <input type="password" class="form-control" name="senha">
+            <label for="data" class="form-label">data</label>
+            <input type="date" class="form-control" name="data">
 
             <input type="submit" class="btn btn-success">
 

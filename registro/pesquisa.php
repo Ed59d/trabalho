@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>cadastrado</title>
+    <title>pesquisa</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
@@ -31,8 +31,8 @@
                         <thead>
                             <tr>
                                 <th scope="col">Nome</th>
-                                <th scope="col">Email</th>
-                                <th scope="col">Ações</th>
+                                <th scope="col">motivo</th>
+                                <th scope="col">data</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -40,12 +40,14 @@
                             while($linha = mysqli_fetch_assoc($dados)){
                                 $id = $linha['id'];
                                 $nome = $linha['nome'];
-                                $email = $linha['email'];
+                                $motivo = $linha['motivo'];
+                                $data = $linha['data'];
 
                                 echo "<tr>
                                 
                                 <td>$nome</td>
-                                <td>$email</td>
+                                <td>$motivo</td>
+                                <td>$data</td>
                                 <td width=150px>
                                <a href='editar.php? id=$id' class='btn btn-success btn-sm'>Editar</a>
                                <a href='#' class='btn btn-danger  btn-sm' data-toggle='modal' data-target='#confirma'>Excluir</a>

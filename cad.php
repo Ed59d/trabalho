@@ -12,7 +12,7 @@ VALUES ('$nome','$data','$email','$senha')");
 
 if($sql = mysqli_query($conexao,$sql)){
     
-     header('Location:login.html');
+    echo " encontrado";
 }
 else{
     echo "nao encontrado";

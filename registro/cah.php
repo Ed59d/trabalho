@@ -8,7 +8,7 @@ $data= $_POST['data'];
 
 
 
-$consulta= "INSERT INTO usuario(nome, professor, turma, motivo, data)
+$consulta= "INSERT INTO ocorrencia2(nome, professor, turma, motivo, data)
 VALUES('$nome','$professor','$turma''$motivo','$data')";
 
 if ($conexao=mysqli_query($conexao, $consulta)){

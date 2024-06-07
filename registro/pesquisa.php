@@ -12,7 +12,7 @@
     <?php 
     include "conexao.php";
     $pesquisa = $_POST['busca'] ?? '';
-    $sql = "SELECT * FROM usuario WHERE nome LIKE'%$pesquisa%'";
+    $sql = "SELECT * FROM ocorrencia2 WHERE nome LIKE'%$pesquisa%'";
     $dados = mysqli_query($conexao,$sql);
     ?>
     

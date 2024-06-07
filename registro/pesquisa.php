@@ -10,7 +10,7 @@
 
 <body>
     <?php 
-    include "conexao.php";
+    include "conexao2.php";
     $pesquisa = $_POST['busca'] ?? '';
     $sql = "SELECT * FROM ocorrencia2 WHERE nome LIKE'%$pesquisa%'";
     $dados = mysqli_query($conexao,$sql);

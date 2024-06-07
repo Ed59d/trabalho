@@ -1,5 +1,5 @@
 <?php 
-include ("conexao.php");
+include ("conexao2.php");
 $nome= $_POST['nome'];
 $professor= $_POST['professor'];
 $turma= $_POST['turma'];

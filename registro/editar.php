@@ -10,7 +10,7 @@
 
 <body>
     <?php 
-    include("conexao.php");
+    include("conexao2.php");
     $id = $_GET["id"] ?? '';
     $sql = "SELECT * FROM ocorrencia WHERE id = $id";
 

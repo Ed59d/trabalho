@@ -28,6 +28,12 @@
             <label for="nome" class="form-label">Nome Completo</label>
             <input type="text" class="form-control" name="nome"required value="<?php echo $linha['nome'] ;?>">
 
+            <label for="professor" class="form-label">professor</label>
+            <input type="text" class="form-control" name="professor" value="<?php echo $linha['professor'] ;?>">
+
+            <label for="turma" class="form-label">turma</label>
+            <input type="text" class="form-control" name="turma" value="<?php echo $linha['turma'] ;?>">
+
             <label for="motivo" class="form-label">motivo</label>
             <input type="text" class="form-control" name="motivo" value="<?php echo $linha['motivo'] ;?>">
 

@@ -31,6 +31,8 @@
                         <thead>
                             <tr>
                                 <th scope="col">Nome</th>
+                                <th scope="col">professor</th>
+                                <th scope="col">turma</th>
                                 <th scope="col">motivo</th>
                                 <th scope="col">data</th>
                             </tr>
@@ -40,12 +42,16 @@
                             while($linha = mysqli_fetch_assoc($dados)){
                                 $id = $linha['id'];
                                 $nome = $linha['nome'];
+                                $professor = $linha['professor'];
+                                $turma = $linha['turma'];
                                 $motivo = $linha['motivo'];
                                 $data = $linha['data'];
 
                                 echo "<tr>
                                 
                                 <td>$nome</td>
+                                <td>$professor</td>
+                                <td>$turma</td>
                                 <td>$motivo</td>
                                 <td>$data</td>
                                 <td width=150px>

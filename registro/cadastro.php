@@ -15,8 +15,14 @@
         <h1>faça a ocorrencia</h1>
         <form action="cah.php" method="POST">
           <div class="mb-3">
-            <label for="nome" class="form-label">Nome Completo</label>
+            <label for="nome" class="form-label">Nome do aluno</label>
             <input type="text" class="form-control" name="nome">
+
+            <label for="nome" class="form-label">professor</label>
+            <input type="text" class="form-control" name="professor">
+
+            <label for="nome" class="form-label">turma</label>
+            <input type="text" class="form-control" name="turma">
 
             <label for="motivo" class="form-label">motivo</label>
             <input type="text" class="form-control" name="email">

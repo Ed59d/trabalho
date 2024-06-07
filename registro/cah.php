@@ -15,6 +15,6 @@ if ($conexao=mysqli_query($conexao2, $consulta)){
     echo"ocorrencia realizada";
 }
 else{
-    echo"ocorrencia falhada".mysqli_connect_error($conexao2);
+    echo"ocorrencia falhada".mysqli_connect_error($consulta);
 }
 ?>

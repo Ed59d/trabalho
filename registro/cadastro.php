@@ -18,14 +18,14 @@
             <label for="nome" class="form-label">Nome do aluno</label>
             <input type="text" class="form-control" name="nome">
 
-            <label for="nome" class="form-label">professor</label>
+            <label for="professor" class="form-label">professor</label>
             <input type="text" class="form-control" name="professor">
 
-            <label for="nome" class="form-label">turma</label>
+            <label for="turma" class="form-label">turma</label>
             <input type="text" class="form-control" name="turma">
 
             <label for="motivo" class="form-label">motivo</label>
-            <input type="text" class="form-control" name="email">
+            <input type="text" class="form-control" name="motivo">
 
             <label for="data" class="form-label">data</label>
             <input type="date" class="form-control" name="data">

@@ -12,9 +12,9 @@
     <?php 
     include("conexao2.php");
     $id = $_GET["id"] ?? '';
-    $sql = "SELECT * FROM ocorrencia2 WHERE id = $id";
+    $sql2 = "SELECT * FROM ocorrencia2 WHERE id = $id";
 
-    $dados = mysqli_query($conexao,$sql);
+    $dados = mysqli_query($conexao2,$sql2);
     $linha = mysqli_fetch_assoc($dados);
     
     
@@ -26,19 +26,19 @@
         <form action="editcad.php" method="POST">
           <div class="mb-3">
             <label for="nome" class="form-label">Nome Completo</label>
-            <input type="text" class="form-control" name="nome"required value="<?php echo $linha['nome'] ;?>">
+            <input type="text" class="form-control" name="nomer"required value="<?php echo $linha['nomer'] ;?>">
 
-            <label for="professor" class="form-label">professor</label>
-            <input type="text" class="form-control" name="professor" value="<?php echo $linha['professor'] ;?>">
+            <label for="professorr" class="form-label">professor</label>
+            <input type="text" class="form-control" name="professorr" value="<?php echo $linha['professorr'] ;?>">
 
-            <label for="turma" class="form-label">turma</label>
-            <input type="text" class="form-control" name="turma" value="<?php echo $linha['turma'] ;?>">
+            <label for="turmar" class="form-label">turma</label>
+            <input type="text" class="form-control" name="turmar" value="<?php echo $linha['turmar'] ;?>">
 
-            <label for="motivo" class="form-label">motivo</label>
-            <input type="text" class="form-control" name="motivo" value="<?php echo $linha['motivo'] ;?>">
+            <label for="motivor" class="form-label">motivo</label>
+            <input type="text" class="form-control" name="motivor" value="<?php echo $linha['motivor'] ;?>">
 
-            <label for="data" class="form-label">data</label>
-            <input type="date" class="form-control" name="data"value="<?php echo $linha['data'] ;?>">
+            <label for="datar" class="form-label">data</label>
+            <input type="date" class="form-control" name="datar"value="<?php echo $linha['datar'] ;?>">
 
             <input type="submit" class="btn btn-success" value="salvar alterações">
             <input type="hidden" name="id" value="<?php echo $linha['id'] ;?>">

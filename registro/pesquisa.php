@@ -12,8 +12,8 @@
     <?php 
     include "conexao2.php";
     $pesquisa = $_POST['busca'] ?? '';
-    $sql = "SELECT * FROM ocorrencia2 WHERE nome LIKE'%$pesquisa%'";
-    $dados = mysqli_query($conexao,$sql);
+    $sql2 = "SELECT * FROM ocorrencia2 WHERE nome LIKE'%$pesquisa%'";
+    $dados = mysqli_query($conexao2,$sql2);
     ?>
     
     <div class="container">
@@ -41,19 +41,19 @@
                             <?php 
                             while($linha = mysqli_fetch_assoc($dados)){
                                 $id = $linha['id'];
-                                $nome = $linha['nome'];
-                                $professor = $linha['professor'];
-                                $turma = $linha['turma'];
-                                $motivo = $linha['motivo'];
-                                $data = $linha['data'];
+                                $nomer = $linha['nomer'];
+                                $professorr = $linha['professorr'];
+                                $turmar = $linha['turmar'];
+                                $motivor = $linha['motivor'];
+                                $datar = $linha['datar'];
 
                                 echo "<tr>
                                 
-                                <td>$nome</td>
-                                <td>$professor</td>
-                                <td>$turma</td>
-                                <td>$motivo</td>
-                                <td>$data</td>
+                                <td>$nomer</td>
+                                <td>$professorr</td>
+                                <td>$turmar</td>
+                                <td>$motivor</td>
+                                <td>$datar</td>
                                 <td width=150px>
                                <a href='editar.php? id=$id' class='btn btn-success btn-sm'>Editar</a>
                                <a href='#' class='btn btn-danger  btn-sm' data-toggle='modal' data-target='#confirma'>Excluir</a>

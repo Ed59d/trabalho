@@ -15,20 +15,20 @@
         <h1>faça a ocorrencia</h1>
         <form action="cah.php" method="POST">
           <div class="mb-3">
-            <label for="nome" class="form-label">Nome do aluno</label>
-            <input type="text" class="form-control" name="nome">
+            <label for="nomer" class="form-label">Nome do aluno</label>
+            <input type="text" class="form-control" name="nomer">
 
-            <label for="professor" class="form-label">professor</label>
-            <input type="text" class="form-control" name="professor">
+            <label for="professorr" class="form-label">professor</label>
+            <input type="text" class="form-control" name="professorr">
 
-            <label for="turma" class="form-label">turma</label>
-            <input type="text" class="form-control" name="turma">
+            <label for="turmar" class="form-label">turma</label>
+            <input type="text" class="form-control" name="turmar">
 
-            <label for="motivo" class="form-label">motivo</label>
-            <input type="text" class="form-control" name="motivo">
+            <label for="motivor" class="form-label">motivo</label>
+            <input type="text" class="form-control" name="motivor">
 
-            <label for="data" class="form-label">data</label>
-            <input type="date" class="form-control" name="data">
+            <label for="datar" class="form-label">data</label>
+            <input type="date" class="form-control" name="datar">
 
             <input type="submit" class="btn btn-success">
 

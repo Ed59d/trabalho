@@ -1,11 +1,11 @@
 <?php 
-$host = "localhost";
-$user ="root";
-$senha ="";
+$host2 = "localhost";
+$user2 ="root";
+$senha2 ="";
 $banco = "trabalho2";
 
-$conexao = new mysqli($host,$user,$senha,$banco);
-    if (!$conexao){
+$conexao2 = new mysqli($host2,$user2,$senha2,$banco);
+    if (!$conexao2){
     //echo 'deu errado'.mysqli_connect_error();
 } 
 else{

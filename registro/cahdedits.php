@@ -1,20 +1,20 @@
 <?php 
 include ("conexao2.php");
 $id= $_POST['id'];
-$nome= $_POST['nome'];
-$profesor= $_POST['professor'];
-$turma= $_POST['turma'];
-$motivo= $_POST['motivo'];
-$date= $_POST['data'];
+$nomer= $_POST['nomerr'];
+$profesorr= $_POST['professorrr'];
+$turmar= $_POST['turmarr'];
+$motivor= $_POST['motivorr'];
+$dater= $_POST['datar'];
 
 
-$sql = "UPDATE ocorrencia2 set nome = '$nome' , professor = '$professor', turma = '$turma', motivo = '$motivo', 'data' = '$data'
+$sql2 = "UPDATE ocorrencia2 set nomer = '$nomer' , professorr = '$professorr', turmar = '$turmar', motivor = '$motivor', 'datar' = '$datar'
 WHERE id = $id";
 
-if ($conexao=mysqli_query($conexao, $sql)){
+if ($conexao2=mysqli_query($conexao2, $sql2)){
     echo"alterado com sucesso";
 }
 else{
-    echo"erro ao alterar".mysqli_connect_error($conexao);
+    echo"erro ao alterar".mysqli_connect_error($conexao2);
 }
 ?>

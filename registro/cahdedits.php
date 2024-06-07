@@ -5,10 +5,10 @@ $nome= $_POST['nome'];
 $profesor= $_POST['professor'];
 $turma= $_POST['turma'];
 $motivo= $_POST['motivo'];
-$data= $_POST['data'];
+$date= $_POST['data'];
 
 
-$sql = "UPDATE ocorrencia2 set nome = '$nome' , professor = '$professor', turma = '$turma', motivo = '$motivo', data = '$data'
+$sql = "UPDATE ocorrencia2 set nome = '$nome' , professor = '$professor', turma = '$turma', motivo = '$motivo', 'data' = '$data'
 WHERE id = $id";
 
 if ($conexao=mysqli_query($conexao, $sql)){

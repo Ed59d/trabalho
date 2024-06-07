@@ -1,10 +1,10 @@
 <?php 
 include ("conexao2.php");
-$nome= $_POST['nome'];
-$professor= $_POST['professor'];
-$turma= $_POST['turma'];
-$motivo= $_POST['motivo'];
-$data= $_POST['data'];
+$nome = $_POST['nome'];
+$professor = $_POST['professor'];
+$turma = $_POST['turma'];
+$motivo = $_POST['motivo'];
+$data = $_POST['data'];
 
 
 

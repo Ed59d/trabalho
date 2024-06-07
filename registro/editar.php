@@ -12,7 +12,7 @@
     <?php 
     include("conexao2.php");
     $id = $_GET["id"] ?? '';
-    $sql = "SELECT * FROM ocorrencia WHERE id = $id";
+    $sql = "SELECT * FROM ocorrencia2 WHERE id = $id";
 
     $dados = mysqli_query($conexao,$sql);
     $linha = mysqli_fetch_assoc($dados);

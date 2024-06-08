@@ -5,9 +5,9 @@ $dbsenha="";
 $dbname="registro";
 
 
-$conexao_ new mysqli($dbhost,$dbusername,$dbsenha,$dbname);
+$conexao new mysqli($dbhost,$dbusername,$dbsenha,$dbname);
 
-if($conexao_ ->connect_errno){
+if($conexao ->connect_errno){
     echo"erro";
 }else{
     echo"sucesso";

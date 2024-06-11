@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>pesquisar</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="link.css">
+
 </head>
 
 <body>
@@ -37,39 +39,44 @@
 
               <th scope="col">Nome</th>
               <th scope="col">motivo</th>
-              <th scope="col">Data data do ocorrido</th>
+              <th scope="col">turma</th>
+              <th scope="col">data</th>
               <th scope="col">professor</th>
               
             </tr>
+
           </thead>
           <tbody>
             <?php
             while ($linha = mysqli_fetch_assoc($dados)) {
               $id = $linha['id'];
               $nome = $linha['nome'];
-              $endereco = $linha['motivo'];
-              $telefone = $linha['data'];
-              $data = $linha['professor'];
+              $motivo = $linha['motivo'];
+              $turma = $linha['turma'];
+              $data = $linha['data'];
+              $professor = $linha['professor'];
 
               echo "<tr>
           
           <td>$nome</td>
           <td>$motivo</td>
+          <td>$turma</td>
           <td>$data</td>
           <td>$professor</td>
           <td width=150px>
-          <a href='cadastro_edit.php? id=$id' class='btn btn-success btn-sm'>Editar</a>
-          <a href='#' class=' btn btn-danger btn-sm'data-toggle='modal' data-target='#confirma'
-          onclick=" .'"' ."pegar_dados($id,'$nome')" . '"' .">Excluir</a>
+          
           </td> 
         </tr>";
+        
             }
             ?>
+
+            
           </tbody>
         </table>
             <!--  onclic="pegar_dados(i-d,nome)"-->
 
-        <a href="abas.html" class=" btn btn-info">Voltar para o Inicio</a>
+        <a href="../abas.html" class=" btn btn-info">Voltar para o Inicio</a>
      
 
   

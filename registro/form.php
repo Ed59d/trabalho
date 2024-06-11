@@ -13,26 +13,28 @@
     <div class="coluna">
         <?php 
 
-        include "conexaor.php";
+        include ("conexaor.php");
         $nome = $_POST['nome']; 
         $motivo = $_POST['motivo'];
+        $turma = $_POST['turma'];
         $data = $_POST['data'];
         $professor = $_POST['professor'];
       
         
-        $sql = "INSERT INTO usuario(nome,motivo,data,professor)
-        VALUES('$nome','$motivo','$data','$data','$professor')";
+        $sql =mysqli_query($conexao,  "INSERT INTO ocorrencia(nome,motivo,turma,data,professor)
+        VALUES('$nome','$motivo','$turma','$data','$professor')");
         if($sql = mysqli_query($conexao,$sql)){
 
-            echo("$nome ocorrencia feita");
+            echo("ocorrencia negada");
         }
         else{
-            echo("ocorrencia negada");
+            
+            echo("ocorrencia feita");
         }
         
         ?>
         <hr>
-        <a href="abas.html" class="btn btn-primary">voltar</a>
+        <a href="../abas.html" class="btn btn-primary">voltar</a>
 
       </div>
 

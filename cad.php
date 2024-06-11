@@ -1,6 +1,5 @@
 <?php
 include("conexao.php");
-include("login.html");
 $nome = $_POST['nome'];
 $data =$_POST['data'];
 $email = $_POST['email'];
@@ -12,10 +11,10 @@ VALUES ('$nome','$data','$email','$senha')");
 
 if($sql = mysqli_query($conexao,$sql)){
     
-    //echo " encontrado";
+    echo "nao encontrado"; 
 }
 else{
-    //echo "nao encontrado";
+    header('location:login.html');  
 }
 
 ?>

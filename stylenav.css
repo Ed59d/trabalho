@@ -44,7 +44,7 @@ header{
 }
 
 body{
-    background: linear-gradient(90deg, rgba(87,240,72,1) 0%, rgba(57,242,41,1) 30%, rgb(255, 255, 255) 75%);
+    background: linear-gradient(90deg, rgba(87,240,72,1) 0%, rgba(57,242,41,1) 30%, rgb(2, 131, 45) 75%);
 }
 .link{
     text-decoration: none;
